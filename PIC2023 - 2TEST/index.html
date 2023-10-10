@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="Images/favicon.ico"/>
+    <title>Project Physis</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light sticky-top bg-white py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/Images/PROJETO_PHYSIS-removebg-preview.png"
+            alt=""
+            width="240"
+            height="80"
+          />
+        </a>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CONTEUDOS -->
+    <section id="section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">CONTEÚDO</h6>
+            <h1>Termologia</h1>
+            <p class="card-text-secondary">A termologia é a área da física que estuda os fenômenos relacionados à temperatura, calor e suas manifestações, tais como a dilatação térmica, a transferência de calor, as mudanças de estado físico da matéria, entre outros. A termologia busca compreender os princípios que regem a variação da temperatura e suas consequências em sistemas físicos, incluindo a natureza dos materiais e suas propriedades termodinâmicas. Essa disciplina também tem aplicações práticas importantes em áreas como a engenharia, a medicina e a meteorologia, entre outras. </p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col"> 
+            <div class="card card-effect col-lg-4 col-sm-6" style="width: 27rem;">
+              <img src="/Images/termologia_cards.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-text">Conceitos Básicos da Termologia</h3>
+                <p class="card-text">Neste módulo você aprenderá os principais conceitos da termologia, como, por exemplo, calor, temperatura, equilíbrio térmico, entre outros.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">COMEÇAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- CONTEUDOS END -->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Estudar:</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p style= "color:black">Neste módulo você aprenderá os principais conceitos da termologia, como, por exemplo, calor, temperatura, equilíbrio térmico, entre outros.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="estudar.html"><button type="button" class="btn btn-primary">Estudar</button></a>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL END -->
+
+
+    <!-- SCRIPT -->    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- SCRIPT END -->   
+  </body>
+</html>

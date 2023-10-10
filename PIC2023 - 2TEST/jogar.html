@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/bddefa4af7.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <title>Project Physis</title>
+  <link rel="shortcut icon" href="Images/favicon.ico"/>
+</head>
+<body>  
+<!-- FORCA -->    
+  <a href="estudar.html"><i class='bx bx-x bx-lg' style="color:black"></i></a>
+  <div class="container">
+    <br>
+    <h1 class="text-center">Vamos jogar: Forca!</h1>
+    <p class="text-center">Vamos jogar um pouco de forca! Aproveite este divertido jogo para memorizar conceitos e palavras-chaves fundamentais da termologia.</p>
+    <div class="float-right">Letras erradas: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+    <div class="text-center">
+      <img id='hangmanPic' src="./images/0.jpg" alt="">
+      <p>Advinhe o conceito físico visto anteriormente:</p>
+      <p id="wordSpotlight">A palavra que busca vai aqui.</p>
+      <div id="keyboard"></div>
+      <br>
+      <button type="button" class="btn btn-danger" onClick="reset()">RESETAR</button>
+      <br><br>
+      <a href="https://forms.gle/x9dEQ4rKKMgokb4v6"><button class="btn btn-success">PROSSEGUR PARA AS PERGUNTAS</button></a>
+    </div> 
+  </div>
+<!-- FORCA END -->   
+
+<!-- SCRIPT -->  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+  <script src='jogar.js'></script>
+<!-- SCRIPT END -->  
+</body>
+</html>
