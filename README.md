@@ -1,0 +1,2 @@
+# PIC2023-ATUALIZADO
+O site é desenvolvido de forma que os alunos conseguem utilizar o website facilmente, com pouca assistência externa. Para isso, o site foi separado em segmentos que auxiliem o aprendizado do indivíduo, sendo esses: tela principal; apresentação da matéria; demonstração do conceito proposto; experiência gamificada e os hiperlinks que levam para os formulários. O site foi desenvolvido com as ferramentas tecnológicas como o HTML, CSS, Javascript, Bootstrap e o editor de texto Visual Studio Code.
